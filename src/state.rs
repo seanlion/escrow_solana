@@ -1,6 +1,7 @@
 use solana_program::{
     pubkey::Pubkey,
-    program_pack::{IsInitialized, Pack Sealed},
+    program_pack::{IsInitialized, Pack, Sealed},
+    program_error::ProgramError,
 };
 pub struct Escrow{
     pub is_initialized: bool,

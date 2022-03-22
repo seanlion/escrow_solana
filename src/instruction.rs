@@ -6,7 +6,10 @@ use crate::error::EscrowError::InvalidInstruction;
 pub enum EscrowInstruction{
     InitEscrow {
         amount: u64
-    }
+    },
+    Exchange {
+        amount: u64,
+    },
 }
 
 impl EscrowInstruction {
