@@ -1,15 +1,7 @@
-### Environment Setup
-1. Install Rust from https://rustup.rs/
-2. Install Solana from https://docs.solana.com/cli/install-solana-cli-tools#use-solanas-install-tool
+## Escrow program with Solana
 
-### Build and test for program compiled natively
-```
-$ cargo build
-$ cargo test
-```
+- 에스크로 스마트 컨트랙트 작성
+- 솔라나 프로그램 작성 이해
+- entrypoint, intruction, state, processor 코드 작성
 
-### Build and test the program compiled for BPF
-```
-$ cargo build-bpf
-$ cargo test-bpf
-```
+참고 : https://paulx.dev/blog/2021/01/14/programming-on-solana-an-introduction/#what-is-an-escrow
